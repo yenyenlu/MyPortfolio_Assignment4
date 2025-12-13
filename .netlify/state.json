@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Scarborough",
+			"country": {
+				"code": "CA",
+				"name": "Canada"
+			},
+			"subdivision": {
+				"code": "ON",
+				"name": "Ontario"
+			},
+			"timezone": "America/Toronto",
+			"latitude": 43.7813,
+			"longitude": -79.3019,
+			"postalCode": "M1T"
+		},
+		"timestamp": 1765653009269
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-assignment4-netlify",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "netlify/functions"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace client\" \"npm run dev:functions --workspace netlify/functions\"",
+    "build": "npm run build --workspace client",
+    "test:unit": "npm run test --workspace client",
+    "test:e2e": "npm run cypress:run --workspace client"
+  },
+  "devDependencies": {
+   "netlify-cli": "^23.12.3"
+  }
+}
