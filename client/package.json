@@ -6,11 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "e2e": "cypress open",
+    "test:e2e": "cypress run --config baseUrl=http://localhost:8888"
   },
   "dependencies": {
     "react": "^18.2.0",
