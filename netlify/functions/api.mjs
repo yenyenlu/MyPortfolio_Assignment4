@@ -42,4 +42,4 @@ app.use("/contact", contactRoutes);
 // 404
 app.use((req, res) => res.status(404).json({ message: "Not Found" }));
 
-export const handler = serverless(app, { basePath: "/.netlify/functions/api" });
+export const handler = serverless(app, { basePath: "/api" });
